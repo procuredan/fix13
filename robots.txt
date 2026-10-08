@@ -1,0 +1,9 @@
+# TEMPORARY — staging hold for the Global Haven Ventures build on fix13.com (added 2026-10-01).
+# fix13.com is a transient staging host; the site migrates to globalhavenventures.com when
+# Dan approves. Pre-launch staging (rebuilt to the approved homepage design 2026-10-08), so search
+# engines must not index this property. Same pattern as sites/static/firelinehomes.com/robots.txt.
+#
+# AT GO-LIVE: DELETE THIS FILE, remove the noindex meta from the pages, and re-run
+# ./scripts/deploy.sh <domain> to restore the factory default (User-agent: * / Allow: / + sitemap).
+User-agent: *
+Disallow: /
